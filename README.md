@@ -10,6 +10,7 @@
   + jade
 * node.js
   + npm
+  + grunt
   + express
   + concurrent
 * db

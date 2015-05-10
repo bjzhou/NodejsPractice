@@ -11,6 +11,9 @@ var test = require('./routes/test');
 
 var app = express();
 
+var port = process.env.PORT || 3000;
+app.listen(port);
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
@@ -57,6 +60,5 @@ app.use(function(err, req, res, next) {
     error: {}
   });
 });
-
 
 module.exports = app;
