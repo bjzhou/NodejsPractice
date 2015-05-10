@@ -4,7 +4,7 @@ module.exports = function(grunt) {
     grunt.initConfig({
         watch: {
             scripts: {
-                files: ['app.js', 'routes/*.js'],
+                files: ['**/*.js'],
                 tasks: ['jshint'],
                 options: {
                     livereload: true
@@ -36,7 +36,7 @@ module.exports = function(grunt) {
                     },
                     cwd: __dirname,
                     ignore: ['node_modules/**'],
-                    ext: ['js','jade'],
+                    ext: 'js',
                     watch: ['./'],
                     delay: 1000,
                     legacyWatch: true

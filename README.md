@@ -4,6 +4,7 @@
 
 * javascript
   + jquery
+  + coffeescript
 * html5
   + bootstrap
   + bower
@@ -13,6 +14,7 @@
   + grunt
   + express
   + concurrent
+  + oauth2
 * db
   + mysql
   + mongodb
