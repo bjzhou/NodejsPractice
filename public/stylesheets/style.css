@@ -1,8 +1,17 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.markdown-text {
+  height: 784px;
+  float: left;
+  width: 48.5%;
 }
 
-a {
-  color: #00B7FF;
+.markdown-preview {
+  overflow: auto;
+  height: 784px;
+  float: right;
+  width: 48.5%;
+}
+
+.row {
+  margin-right: 1.5%;
+  margin-left: 1.5%;
 }

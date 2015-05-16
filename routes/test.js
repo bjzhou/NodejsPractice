@@ -53,4 +53,10 @@ router.get("/", function (req, res, next) {
         });
 });
 
+router.get("/md", function (req, res, next) {
+    res.render('md', {
+        content: "#Welcome To My Markdown Editor"
+    });
+});
+
 module.exports = router;

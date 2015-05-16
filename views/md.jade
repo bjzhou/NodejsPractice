@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  .container-fuild
+    h1.text-center 我的Markdown编辑器
+    .row
+      textarea.col-xs-6.markdown-text #{content}
+      .col-xs-6.table-bordered.markdown-preview
+  script(src='/libs/showdown/src/showdown.js')
+  script(src="/javascripts/md.js")
